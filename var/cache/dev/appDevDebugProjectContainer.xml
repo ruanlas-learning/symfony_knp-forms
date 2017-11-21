@@ -88,6 +88,7 @@
     <parameter key="twig.exception_listener.controller">twig.controller.exception:showAction</parameter>
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
+      <parameter>bootstrap_3_layout.html.twig</parameter>
     </parameter>
     <parameter key="monolog.logger.class">Symfony\Bridge\Monolog\Logger</parameter>
     <parameter key="monolog.gelf.publisher.class">Gelf\MessagePublisher</parameter>
@@ -462,7 +463,7 @@
                   <tag name="cache.pool"/>
                   <argument>ibxi4GRSgi</argument>
                   <argument>0</argument>
-                  <argument>H5x1nymaJ8jGejh1L5+idA</argument>
+                  <argument>W44MyKc2HLUorJtNpkQ5-A</argument>
                   <argument>/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -475,7 +476,7 @@
                   <tag name="cache.pool"/>
                   <argument>LYthN4ppmR</argument>
                   <argument>0</argument>
-                  <argument>H5x1nymaJ8jGejh1L5+idA</argument>
+                  <argument>W44MyKc2HLUorJtNpkQ5-A</argument>
                   <argument>/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -807,7 +808,7 @@
       <tag name="cache.pool"/>
       <argument>YLgiFarEe6</argument>
       <argument>0</argument>
-      <argument>H5x1nymaJ8jGejh1L5+idA</argument>
+      <argument>W44MyKc2HLUorJtNpkQ5-A</argument>
       <argument>/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1543,7 +1544,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5a0f18b94dee94.24287520</argument>
+            <argument>5a141826966958.33673920</argument>
           </service>
         </argument>
       </argument>
@@ -1677,7 +1678,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5a0f18b94dee94.24287520</argument>
+            <argument>5a141826966958.33673920</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -1723,10 +1724,11 @@
           <argument key="decimals">0</argument>
           <argument key="decimal_point">.</argument>
         </argument>
-        <argument key="exception_controller">twig.controller.exception:showAction</argument>
         <argument key="form_themes" type="collection">
           <argument>form_div_layout.html.twig</argument>
+          <argument>bootstrap_3_layout.html.twig</argument>
         </argument>
+        <argument key="exception_controller">twig.controller.exception:showAction</argument>
         <argument key="autoescape">filename</argument>
         <argument key="cache">/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
@@ -1849,6 +1851,7 @@
                   <service class="Symfony\Bridge\Twig\Form\TwigRendererEngine" public="false">
                     <argument type="collection">
                       <argument>form_div_layout.html.twig</argument>
+                      <argument>bootstrap_3_layout.html.twig</argument>
                     </argument>
                   </service>
                 </argument>
