@@ -463,7 +463,7 @@
                   <tag name="cache.pool"/>
                   <argument>ibxi4GRSgi</argument>
                   <argument>0</argument>
-                  <argument>W44MyKc2HLUorJtNpkQ5-A</argument>
+                  <argument>44Q-dOlzdUqqKTR02LVatg</argument>
                   <argument>/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -476,7 +476,7 @@
                   <tag name="cache.pool"/>
                   <argument>LYthN4ppmR</argument>
                   <argument>0</argument>
-                  <argument>W44MyKc2HLUorJtNpkQ5-A</argument>
+                  <argument>44Q-dOlzdUqqKTR02LVatg</argument>
                   <argument>/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -808,7 +808,7 @@
       <tag name="cache.pool"/>
       <argument>YLgiFarEe6</argument>
       <argument>0</argument>
-      <argument>W44MyKc2HLUorJtNpkQ5-A</argument>
+      <argument>44Q-dOlzdUqqKTR02LVatg</argument>
       <argument>/home/wideti/Área de Trabalho/symfony_knp-form/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1544,7 +1544,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5a141826966958.33673920</argument>
+            <argument>5a1576f6633885.00837679</argument>
           </service>
         </argument>
       </argument>
@@ -1678,7 +1678,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5a141826966958.33673920</argument>
+            <argument>5a1576f6633885.00837679</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
