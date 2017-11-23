@@ -11,3 +11,7 @@ f5b7f0,127.0.0.1,GET,http://localhost:8000/admin/genus,1511356964,,200
 7c6f73,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511356966,,200
 4f625b,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511356983,,302
 a27d6d,127.0.0.1,GET,http://localhost:8000/admin/genus,1511356983,,200
+994040,127.0.0.1,GET,http://localhost:8000/admin/genus,1511357380,,200
+2a0e06,127.0.0.1,GET,http://localhost:8000/admin/genus,1511441886,,200
+53d632,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511441890,,200
+f1a139,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511444267,,200
