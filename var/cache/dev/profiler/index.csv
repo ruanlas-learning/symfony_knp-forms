@@ -43,3 +43,14 @@ da6141,127.0.0.1,GET,http://localhost:8000/admin/genus,1511778594,,200
 7f6753,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511779835,,200
 bb4fb6,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511779938,,200
 9ec916,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511780142,,200
+66c4aa,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511780436,,200
+03c25a,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511780441,,200
+284768,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781565,,200
+d59be9,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781571,,200
+9c7adb,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781578,,200
+718cad,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781589,,200
+b79287,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781591,,200
+356ff7,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781592,,200
+7f45d0,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511781596,,200
+f96269,127.0.0.1,POST,http://localhost:8000/admin/genus/new,1511781624,,302
+70528c,127.0.0.1,GET,http://localhost:8000/admin/genus,1511781624,,200

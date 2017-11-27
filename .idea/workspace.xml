@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da33271-d43a-4081-834c-b1f2953df499" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php" afterPath="$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5afee736adf23e827d2abb7bc174906022f489abf9f3d3f1c9fc8e3dc680faf0.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5a/5afee736adf23e827d2abb7bc174906022f489abf9f3d3f1c9fc8e3dc680faf0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
@@ -29,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenusFormType.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenusFormType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="756">
               <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="e#34#61#0#PHP" expanded="true" />
@@ -81,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="438">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -116,8 +114,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/SubFamily.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/SubFamilyRepository.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig" />
       </list>
     </option>
   </component>
@@ -501,12 +499,12 @@
       <workItem from="1511366057159" duration="3749000" />
       <workItem from="1511439338175" duration="6696000" />
       <workItem from="1511459038765" duration="256000" />
-      <workItem from="1511778302213" duration="1889000" />
+      <workItem from="1511778302213" duration="3001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34343000" />
+    <option name="totallyTimeSpent" value="35455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1301" height="744" extended-state="6" />
@@ -916,21 +914,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="756">
           <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
             <element signature="e#34#61#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/genus/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

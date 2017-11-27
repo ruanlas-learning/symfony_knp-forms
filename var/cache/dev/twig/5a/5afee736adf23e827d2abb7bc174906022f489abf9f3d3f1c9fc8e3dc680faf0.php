@@ -23,20 +23,20 @@ class __TwigTemplate_14d8495fe54c14c533fd655df2f1b225629d4abc3be099a720332923e84
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8e4e48d14cb723945417f7cd2099437db1ae73721178659f85ff22b46398b607 = $this->env->getExtension("native_profiler");
-        $__internal_8e4e48d14cb723945417f7cd2099437db1ae73721178659f85ff22b46398b607->enter($__internal_8e4e48d14cb723945417f7cd2099437db1ae73721178659f85ff22b46398b607_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/genus/new.html.twig"));
+        $__internal_4d18de6253990a9f72400108a79b046f720e03b63147815a8a8527fb4162e850 = $this->env->getExtension("native_profiler");
+        $__internal_4d18de6253990a9f72400108a79b046f720e03b63147815a8a8527fb4162e850->enter($__internal_4d18de6253990a9f72400108a79b046f720e03b63147815a8a8527fb4162e850_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/genus/new.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_8e4e48d14cb723945417f7cd2099437db1ae73721178659f85ff22b46398b607->leave($__internal_8e4e48d14cb723945417f7cd2099437db1ae73721178659f85ff22b46398b607_prof);
+        $__internal_4d18de6253990a9f72400108a79b046f720e03b63147815a8a8527fb4162e850->leave($__internal_4d18de6253990a9f72400108a79b046f720e03b63147815a8a8527fb4162e850_prof);
 
     }
 
     // line 3
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_cf5f425c1ecfd44a9adf2412e87b19c67d691604f7f61c7d3015a68560d3cd49 = $this->env->getExtension("native_profiler");
-        $__internal_cf5f425c1ecfd44a9adf2412e87b19c67d691604f7f61c7d3015a68560d3cd49->enter($__internal_cf5f425c1ecfd44a9adf2412e87b19c67d691604f7f61c7d3015a68560d3cd49_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_ddd7a68420ad725edba9b80dd551f833f73315fe92d5fa28753ab92f6e4311f6 = $this->env->getExtension("native_profiler");
+        $__internal_ddd7a68420ad725edba9b80dd551f833f73315fe92d5fa28753ab92f6e4311f6->enter($__internal_ddd7a68420ad725edba9b80dd551f833f73315fe92d5fa28753ab92f6e4311f6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 4
         echo "    ";
@@ -46,15 +46,15 @@ class __TwigTemplate_14d8495fe54c14c533fd655df2f1b225629d4abc3be099a720332923e84
     <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker.css\">
 ";
         
-        $__internal_cf5f425c1ecfd44a9adf2412e87b19c67d691604f7f61c7d3015a68560d3cd49->leave($__internal_cf5f425c1ecfd44a9adf2412e87b19c67d691604f7f61c7d3015a68560d3cd49_prof);
+        $__internal_ddd7a68420ad725edba9b80dd551f833f73315fe92d5fa28753ab92f6e4311f6->leave($__internal_ddd7a68420ad725edba9b80dd551f833f73315fe92d5fa28753ab92f6e4311f6_prof);
 
     }
 
     // line 9
     public function block_body($context, array $blocks = array())
     {
-        $__internal_8a6b9758984b07b0f5b27d5034b6b1a8741862408164e50fcc6bafde19fd89bc = $this->env->getExtension("native_profiler");
-        $__internal_8a6b9758984b07b0f5b27d5034b6b1a8741862408164e50fcc6bafde19fd89bc->enter($__internal_8a6b9758984b07b0f5b27d5034b6b1a8741862408164e50fcc6bafde19fd89bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_74dd3838f21d5f84c93c7aa241eb0824943ce38320743d63ca6ae08c34a82342 = $this->env->getExtension("native_profiler");
+        $__internal_74dd3838f21d5f84c93c7aa241eb0824943ce38320743d63ca6ae08c34a82342->enter($__internal_74dd3838f21d5f84c93c7aa241eb0824943ce38320743d63ca6ae08c34a82342_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 10
         echo "    <div class=\"container\">
@@ -83,15 +83,15 @@ class __TwigTemplate_14d8495fe54c14c533fd655df2f1b225629d4abc3be099a720332923e84
     </div>
 ";
         
-        $__internal_8a6b9758984b07b0f5b27d5034b6b1a8741862408164e50fcc6bafde19fd89bc->leave($__internal_8a6b9758984b07b0f5b27d5034b6b1a8741862408164e50fcc6bafde19fd89bc_prof);
+        $__internal_74dd3838f21d5f84c93c7aa241eb0824943ce38320743d63ca6ae08c34a82342->leave($__internal_74dd3838f21d5f84c93c7aa241eb0824943ce38320743d63ca6ae08c34a82342_prof);
 
     }
 
     // line 27
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_49efbe486fd5c39c4fbb5d23dbb8dcb9b33b4a6bb377926fd5030d137603830c = $this->env->getExtension("native_profiler");
-        $__internal_49efbe486fd5c39c4fbb5d23dbb8dcb9b33b4a6bb377926fd5030d137603830c->enter($__internal_49efbe486fd5c39c4fbb5d23dbb8dcb9b33b4a6bb377926fd5030d137603830c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_d72167361e31586503eceec3327a47758e8f4fdbfc5390b3e869dc2e84750a22 = $this->env->getExtension("native_profiler");
+        $__internal_d72167361e31586503eceec3327a47758e8f4fdbfc5390b3e869dc2e84750a22->enter($__internal_d72167361e31586503eceec3327a47758e8f4fdbfc5390b3e869dc2e84750a22_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 28
         echo "    ";
@@ -102,12 +102,14 @@ class __TwigTemplate_14d8495fe54c14c533fd655df2f1b225629d4abc3be099a720332923e84
 
     <script>
         jQuery(document).ready(function() {
-            \$('.js-datepicker').datepicker();
+            \$('.js-datepicker').datepicker({
+                format: 'yyyy-mm-dd'
+            });
         });
     </script>
 ";
         
-        $__internal_49efbe486fd5c39c4fbb5d23dbb8dcb9b33b4a6bb377926fd5030d137603830c->leave($__internal_49efbe486fd5c39c4fbb5d23dbb8dcb9b33b4a6bb377926fd5030d137603830c_prof);
+        $__internal_d72167361e31586503eceec3327a47758e8f4fdbfc5390b3e869dc2e84750a22->leave($__internal_d72167361e31586503eceec3327a47758e8f4fdbfc5390b3e869dc2e84750a22_prof);
 
     }
 
@@ -159,7 +161,9 @@ class __TwigTemplate_14d8495fe54c14c533fd655df2f1b225629d4abc3be099a720332923e84
 /* */
 /*     <script>*/
 /*         jQuery(document).ready(function() {*/
-/*             $('.js-datepicker').datepicker();*/
+/*             $('.js-datepicker').datepicker({*/
+/*                 format: 'yyyy-mm-dd'*/
+/*             });*/
 /*         });*/
 /*     </script>*/
 /* {% endblock %}*/
