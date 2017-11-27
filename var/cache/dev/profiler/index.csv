@@ -33,3 +33,13 @@ d37362,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511453661,,200
 a4d715,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511453721,,200
 8b922a,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511453722,,200
 36ecd4,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511453723,,200
+7da7ea,127.0.0.1,GET,http://localhost:8000/,1511778575,,200
+b65fe6,127.0.0.1,GET,http://localhost:8000/genus,1511778583,,200
+da6141,127.0.0.1,GET,http://localhost:8000/admin/genus,1511778594,,200
+35c6ba,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511778597,,200
+65bf85,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511778959,,200
+5dc79a,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511779274,,200
+8dcded,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511779831,,200
+7f6753,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511779835,,200
+bb4fb6,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511779938,,200
+9ec916,127.0.0.1,GET,http://localhost:8000/admin/genus/new,1511780142,,200
