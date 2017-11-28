@@ -1,6 +1,6 @@
 <?php
 
-/* main/homepage.html.twig */
+/* :main:homepage.html.twig */
 class __TwigTemplate_5c56ff54939c6bf4cebe7fe8f708c89832fb7c078df010c64f65bd947394d33f extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_5c56ff54939c6bf4cebe7fe8f708c89832fb7c078df010c64f65bd94739
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", "main/homepage.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", ":main:homepage.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
         );
@@ -21,32 +21,32 @@ class __TwigTemplate_5c56ff54939c6bf4cebe7fe8f708c89832fb7c078df010c64f65bd94739
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f388c8d8df98d71105c6cdc77225f73efaa960169a9827017dc9f6bb3ca6a0c0 = $this->env->getExtension("native_profiler");
-        $__internal_f388c8d8df98d71105c6cdc77225f73efaa960169a9827017dc9f6bb3ca6a0c0->enter($__internal_f388c8d8df98d71105c6cdc77225f73efaa960169a9827017dc9f6bb3ca6a0c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "main/homepage.html.twig"));
+        $__internal_a0facf60469d1908aa3801641d0cd04b193cc9548532711611c97c2e827b90ce = $this->env->getExtension("native_profiler");
+        $__internal_a0facf60469d1908aa3801641d0cd04b193cc9548532711611c97c2e827b90ce->enter($__internal_a0facf60469d1908aa3801641d0cd04b193cc9548532711611c97c2e827b90ce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":main:homepage.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_f388c8d8df98d71105c6cdc77225f73efaa960169a9827017dc9f6bb3ca6a0c0->leave($__internal_f388c8d8df98d71105c6cdc77225f73efaa960169a9827017dc9f6bb3ca6a0c0_prof);
+        $__internal_a0facf60469d1908aa3801641d0cd04b193cc9548532711611c97c2e827b90ce->leave($__internal_a0facf60469d1908aa3801641d0cd04b193cc9548532711611c97c2e827b90ce_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_c261d5ba5212798bb52886fd8b706e568167497c62aa80230141fb59d497e114 = $this->env->getExtension("native_profiler");
-        $__internal_c261d5ba5212798bb52886fd8b706e568167497c62aa80230141fb59d497e114->enter($__internal_c261d5ba5212798bb52886fd8b706e568167497c62aa80230141fb59d497e114_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_11346583ca015658c9df349c42cf76a8f23d693e3e5a939b46f02bf599c65c42 = $this->env->getExtension("native_profiler");
+        $__internal_11346583ca015658c9df349c42cf76a8f23d693e3e5a939b46f02bf599c65c42->enter($__internal_11346583ca015658c9df349c42cf76a8f23d693e3e5a939b46f02bf599c65c42_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <h1 class=\"page-header text-center\">Welcome Aquanauts!</h1>
 ";
         
-        $__internal_c261d5ba5212798bb52886fd8b706e568167497c62aa80230141fb59d497e114->leave($__internal_c261d5ba5212798bb52886fd8b706e568167497c62aa80230141fb59d497e114_prof);
+        $__internal_11346583ca015658c9df349c42cf76a8f23d693e3e5a939b46f02bf599c65c42->leave($__internal_11346583ca015658c9df349c42cf76a8f23d693e3e5a939b46f02bf599c65c42_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "main/homepage.html.twig";
+        return ":main:homepage.html.twig";
     }
 
     public function isTraitable()
