@@ -114,5 +114,8 @@
   ':main:homepage.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/main/homepage.html.twig',
   '::base.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/base.html.twig',
   ':admin/genus:new.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/admin/genus/new.html.twig',
+  ':admin/genus:formLayout.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/admin/genus/formLayout.html.twig',
+  ':admin/genus:_form.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/admin/genus/_form.html.twig',
+  ':admin/genus:edit.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/admin/genus/edit.html.twig',
   ':admin/genus:list.html.twig' => '/home/wideti/Área de Trabalho/symfony_knp-form/app/Resources/views/admin/genus/list.html.twig',
 );
