@@ -1,6 +1,6 @@
 <?php
 
-/* :admin/genus:list.html.twig */
+/* admin/genus/list.html.twig */
 class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc36dcb4 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc3
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", ":admin/genus:list.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", "admin/genus/list.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
         );
@@ -21,20 +21,20 @@ class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_595ec61ea4f84ea163a2dc9034727dd27c81d01852dc8682e77d8101885934bc = $this->env->getExtension("native_profiler");
-        $__internal_595ec61ea4f84ea163a2dc9034727dd27c81d01852dc8682e77d8101885934bc->enter($__internal_595ec61ea4f84ea163a2dc9034727dd27c81d01852dc8682e77d8101885934bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":admin/genus:list.html.twig"));
+        $__internal_3aafb311cf90ae8184c663e2d6a1b17803879acdd4b8891e0767af8f70350f03 = $this->env->getExtension("native_profiler");
+        $__internal_3aafb311cf90ae8184c663e2d6a1b17803879acdd4b8891e0767af8f70350f03->enter($__internal_3aafb311cf90ae8184c663e2d6a1b17803879acdd4b8891e0767af8f70350f03_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "admin/genus/list.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_595ec61ea4f84ea163a2dc9034727dd27c81d01852dc8682e77d8101885934bc->leave($__internal_595ec61ea4f84ea163a2dc9034727dd27c81d01852dc8682e77d8101885934bc_prof);
+        $__internal_3aafb311cf90ae8184c663e2d6a1b17803879acdd4b8891e0767af8f70350f03->leave($__internal_3aafb311cf90ae8184c663e2d6a1b17803879acdd4b8891e0767af8f70350f03_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_2c6def294321ee38c1822b1907689a8ab330212e4afd4deb83dfb57754b2b0aa = $this->env->getExtension("native_profiler");
-        $__internal_2c6def294321ee38c1822b1907689a8ab330212e4afd4deb83dfb57754b2b0aa->enter($__internal_2c6def294321ee38c1822b1907689a8ab330212e4afd4deb83dfb57754b2b0aa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_c250643cc822b68288fd25191c48b7e2be65831dced016cbffd126cfc43790da = $this->env->getExtension("native_profiler");
+        $__internal_c250643cc822b68288fd25191c48b7e2be65831dced016cbffd126cfc43790da->enter($__internal_c250643cc822b68288fd25191c48b7e2be65831dced016cbffd126cfc43790da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <div class=\"container\">
@@ -72,7 +72,10 @@ class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc3
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["genus"], "subFamily", array()), "name", array()), "html", null, true);
             echo "</td>
                             <td>
-                                <a href=\"#\" class=\"btn btn-xs btn-success\"><span class=\"fa fa-pencil\"></span></a>
+                                <a href=\"";
+            // line 25
+            echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("admin_genus_edit", array("id" => $this->getAttribute($context["genus"], "id", array()))), "html", null, true);
+            echo "\" class=\"btn btn-xs btn-success\"><span class=\"fa fa-pencil\"></span></a>
                             </td>
                         </tr>
                     ";
@@ -87,13 +90,13 @@ class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc3
     </div>
 ";
         
-        $__internal_2c6def294321ee38c1822b1907689a8ab330212e4afd4deb83dfb57754b2b0aa->leave($__internal_2c6def294321ee38c1822b1907689a8ab330212e4afd4deb83dfb57754b2b0aa_prof);
+        $__internal_c250643cc822b68288fd25191c48b7e2be65831dced016cbffd126cfc43790da->leave($__internal_c250643cc822b68288fd25191c48b7e2be65831dced016cbffd126cfc43790da_prof);
 
     }
 
     public function getTemplateName()
     {
-        return ":admin/genus:list.html.twig";
+        return "admin/genus/list.html.twig";
     }
 
     public function isTraitable()
@@ -103,7 +106,7 @@ class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc3
 
     public function getDebugInfo()
     {
-        return array (  84 => 29,  72 => 23,  68 => 22,  65 => 21,  61 => 20,  47 => 9,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  87 => 29,  77 => 25,  72 => 23,  68 => 22,  65 => 21,  61 => 20,  47 => 9,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
 /* {% extends 'base.html.twig' %}*/
@@ -130,7 +133,7 @@ class __TwigTemplate_7386a67c58252f978ee04d2dc494755b02a73aa2a4978aa931642d74bc3
 /*                             <td>{{ genus.name }}</td>*/
 /*                             <td>{{ genus.subFamily.name }}</td>*/
 /*                             <td>*/
-/*                                 <a href="#" class="btn btn-xs btn-success"><span class="fa fa-pencil"></span></a>*/
+/*                                 <a href="{{ path('admin_genus_edit', {'id': genus.id}) }}" class="btn btn-xs btn-success"><span class="fa fa-pencil"></span></a>*/
 /*                             </td>*/
 /*                         </tr>*/
 /*                     {% endfor %}*/
